@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+}
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    width: 1000px;
+    margin: 100px;
+}
+.header{
+    display: flex;
+    height: 30px;
+    font-size: small;
+    /* height: 20px; */
+}
+.subhead{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: small;
+    margin: 0px 5px;
+    color:  hsl(0, 0%, 81%);
+}
+.fname{
+    color: hsl(217, 19%, 35%);
+    margin: 0px 5px;
+    font-size: small;
+}
+.vgrad{
+    font-size: x-small;
+    margin: 0px 5px;
+    color: hsla(0, 0%, 81%, 50%);
+}
+.fvgrad{
+    font-size: x-small;
+    margin: 0px 5px;
+    color: hsla(210, 46%, 95%, 50%);
+}
+#daniel{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-position-x: 265px;
+    background-size: 80px 88px;
+    background-repeat: no-repeat;
+    /* background-position: right top; */
+    height: 210px;
+    width: 375px;
+    border-radius: 6px;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+    align-self: start;
+    margin: 8px;
+}
+#daniel .img{
+    background-color: #A775F1;
+}
+#patrick .img{
+    background-color: #A775F1;
+}
+#jonathan{
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 6px;
+    padding: 20px 20px 0px 20px;
+    position: relative;
+    width: 155px;
+    height: 210px;
+    margin: 8px;
+}
+#jeanette{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 6px;
+    padding: 20px;
+    position: relative;
+    align-self: flex-start;
+    margin: 8px;
+    width: 145px;
+}
+#patrick{
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 6px;
+    padding: 20px;
+    position: relative;
+    margin: 8px;
+    width: 375px;
+}
+#kira{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 6px;
+    padding: 20px;
+    position: relative;
+    width: 150px;
+    margin: 10px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    height: max-content;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: max-content;
+}
+.qhead{
+    color:  hsl(0, 0%, 100%);
+}
+.fqhead{
+    color:hsl(219, 29%, 14%);
+}
+.img{
+    border-radius: 50%;
+    padding: 2px;
+}
+.quote{
+    color: hsla(0, 0%, 100%,70%);
+    font-size: 80%;
+}
+.fquote{
+    color: hsl(217, 19%, 35%);
+    font-size: 80%;
+}
